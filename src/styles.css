@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+/* FILEPATH: /c:/Users/Q/Documents/CSCC/Web/cscc/src/styles.css */
+
+/* Body styles */
+body {
+  background-color: #f2f2f2;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #555555;
+}
+
+/* Container styles */
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Button styles */
+.button {
+  background-color: #88cc88;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #66aa66;
+}
+
+/* Link styles */
+a {
+  color: #3399cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
