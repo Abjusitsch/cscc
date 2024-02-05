@@ -4,10 +4,10 @@ import { LayoutComponent } from "./layout/layout.component";
 
 @Component({
     selector: 'app-root',
-    standalone: true,
+    // standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, LayoutComponent]
+    //imports: [RouterOutlet, LayoutComponent]
 })
 export class AppComponent {
   title = 'cscc';
